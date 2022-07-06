@@ -2,4 +2,4 @@ project: fzf
 target: fzf
 
 cmds:
-  - cmd: /fzf 
+  - cmd: /fzf
