@@ -1,9 +1,5 @@
 project: fzf
 target: fzf
 
-testsuite:
-  - file://example_history
-
 cmds:
   - cmd: /fzf 
-  - cmd: /fzf --history=@@
