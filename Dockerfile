@@ -1,11 +1,24 @@
-FROM archlinux
-RUN pacman -Sy && pacman --noconfirm -S awk git tmux zsh fish ruby procps go make gcc
-RUN gem install --no-document -v 5.14.2 minitest
-RUN echo '. /usr/share/bash-completion/completions/git' >> ~/.bashrc
-RUN echo '. ~/.bashrc' >> ~/.bash_profile
+FROM golang:1.18-bullseye as builder
+#FROM --platform=linux/amd64 ubuntu:20.04 as builder
 
-# Do not set default PS1
-RUN rm -f /etc/bash.bashrc
-COPY . /fzf
-RUN cd /fzf && make install && ./install --all
-CMD tmux new 'set -o pipefail; ruby /fzf/test/test_go.rb | tee out && touch ok' && cat out && [ -e ok ]
+#RUN apt-get update
+#RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common
+#RUN add-apt-repository ppa:longsleep/golang-backports
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get install make
+#RUN export PATH=$PATH:/usr/local/go/bin
+
+
+ADD . /fzf
+WORKDIR /fzf
+RUN make
+RUN make install
+
+FROM ubuntu:20.04 as package
+
+COPY --from=builder /fzf/bin/fzf /fzf
+
+# Technically build and 'package'
+# build step with required supporting packages
+# package step new docker with binaryldd
+# go make gcc cmake clang curl
