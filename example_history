@@ -1,0 +1,248 @@
+ping 8.8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+cd .ss
+ls
+mkdir code
+cd code/
+ls
+git clone https://github.com/tarahmarie/nerdlist.git
+vim
+cd nerdlist/
+ls
+vim nerdlist.txt 
+vim authors.txt 
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+$ ssh-keygen -t rsa -b 4096 -C "someone@pm.me"
+ssh-keygen -t rsa -b 4096 -C "someone@pm.me"
+eval "$(ssh-agent -s)"
+vim ~/.ssh/con
+vim ~/.ssh/config
+ssh-add -K ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa.pub 
+ll
+cd ..
+git clone https://github.com/someone/nerdlist.git
+mv nerdlist/ nerdlist2/
+git clone https://github.com/someone/nerdlist.git
+rm nerdlist/nerdlist.txt 
+rm nerdlist/authors.txt 
+mv nerdlist2/nerdlist.txt nerdlist/nerdlist.txt
+mv nerdlist2/authors.txt nerdlist/authors.txt
+cd nerdlist
+ls
+git status
+git add -A
+git push
+ssh -T git@github.com
+git push
+git remote set-url origin git+ssh://git@github.com/username/reponame.git
+git remote set-url origin git+ssh://git@github.com/username/reponame.git
+git remote set-url origin git+ssh://git@github.com/someone/nerdlist.git
+git push
+brew update
+sudo chown -R $(whoami) /usr/local/Cellar
+su aslan
+su aslan
+netstat
+ifconfig
+traceroute 8.8.8.8
+nmap
+ping 8.8.8.8
+ls /Volumes/
+ls /Volumes/
+sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/Mojave\ Recovery/
+su Aslan
+cd /Volumes/boot/
+ls
+touch wifikeyfile.txt
+vim wifikeyfile.txt 
+vim wpa_supplicant.conf
+rm wifikeyfile.txt 
+touch ssh
+exit
+  sudo mount -u -o rw /Volumes/VolName
+  sudo mount -u -o rw /Volumes/boot/
+su Aslan
+cd Downloads/No\ Intro/N\ 64/
+ssh pi@192.168.7.182
+su User
+file rsync
+which rscnc
+which rsync
+cd /Volumes/My\ Book/
+ls
+df /Volumes/My\ Book/
+ls
+ls -al
+ls -alh
+cd curt/
+ls
+ls -alh
+cd Library/
+ls
+cd ..
+ls
+du -sh */
+ls
+cd code/
+ls
+git clone https://github.com/Accla/d2m.git
+ls
+cd 4
+ls
+bat README.txt 
+cat README.txt 
+brew
+brew install octave
+arp -a
+npm i adafruit-pi-finder
+arp -a
+arp -a
+ssh pi@192.168.1.111
+ssh pi@192.168.1.111
+ls /dev/tty.*
+minicom -s
+brew install minicom
+su Aslan
+exit
+minicom -s
+ls /dev/tty.*
+screen /dev/tty.usbmodem14201 115200
+ls /dev/tty.*
+ls /dev/tty.*
+python3.9
+python3.9.0
+import board
+screen /dev/tty.usbmodem14201 115200
+ls
+cd code/
+cd ..
+cd mu_code/
+ls
+ cd..
+cd co
+cd ../code/
+git clone https://github.com/mu-editor/mu.git
+cd mu/
+ls
+python3 -m venv ~/code/mu_venv
+source ~/code/mu_venv/bin/activate
+pip3 install -e ".[dev]"
+pwd
+ls
+pip3 install -e requirements.txt 
+pip3 install -r requirements.txt 
+pip3 install --upgrade pip
+pip3 install -r requirements.txt 
+export QT_MAC_WANTS_LAYER=1
+python3 run.py 
+pip3 install -e ".[dev]"
+pip3 install -e ".[dev]"
+python3.9 -m pip install mu-editor
+python3 run.py 
+rm -r ../mu_venv/
+python3.9 -m venv ~/code/mu_venv
+python3.9
+cd
+python3.9
+source ~/.bashrc
+source ~/.zshrc
+pip3 install openpyxl
+ls
+cd code/
+ls
+cd excel
+mkdir sheetmanip
+cd sheetmanip/
+ls
+vim excel.py
+vim excel.py
+cd code/
+ls
+cd sheetmanip/
+ls
+ls
+chmod +x excel.py 
+ls
+./excel.py 
+ls
+cd
+cd Desktop/
+python3 filename.py 
+ping 1.1.1.
+ping 1.1.1.1
+z
+caffeinate 
+caffeinate 
+cd Desktop/
+ls
+file Statement\ of\ Faith.pub 
+gdb
+ls /usr/bin
+ls /usr/bin | grep g
+brew search gdb
+brew install gdb
+csrutil status
+cd /Volumes/G-DRIVE\ USB-C/
+ls
+cd Backups.backupdb/
+ls
+ls
+sudo su
+su jadis
+su jadis
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+ping 1.1.1.1
+ping 1.1.1.1
+ping 1.1.1.1
+arp -a
+ssh root@172.16.42.1:1471
+ssh root@172.16.42.1
+resetpassword
+ls
+cd
+brew update
+sudo brew update
+su aslan
+su aslan
+ls
+cd code/
+ls
+git clone https://github.com/someone/fzf.git
+ls
+cd fzf/
+ls
+ll
+ls -al
+git checkout -b mayhem
+brew install go
+make
+cd code/fzf/
+make
+ls
+mkdir fuzz
+vim Dockerfile
+vim Dockerfile
+ls
+cd ..
+ls
+ls
+cd fzf/
+ls
+ls 0al
+ls -al
+cd ..
+ls
+exit
+cd code/
+ls
+cd fzf/
+ls
+ls
+subl .
+exit

@@ -17,6 +17,7 @@ RUN make install
 FROM ubuntu:20.04 as package
 
 COPY --from=builder /fzf/bin/fzf /fzf
+COPY --from=builder /fzf/example_history /example_history
 
 # Technically build and 'package'
 # build step with required supporting packages
